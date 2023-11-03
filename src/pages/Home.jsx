@@ -9,7 +9,7 @@ const Home = () => {
         switch (num) {
             case 1: navigate("/memberlist"); break;
             case 2: break;
-            case 3: break;
+            case 3: navigate("/profile"); break;
             case 4: navigate("/setting"); break;
             default:
         }
